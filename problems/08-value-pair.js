@@ -12,6 +12,10 @@ valuePair(object1, object2, 'name'); // => [ 'One', 'Two' ]
 
 function valuePair(obj1, obj2, key) {
   // Your code here
+  let commonKeyValue = []
+  commonKeyValue.push(obj1[key])
+  commonKeyValue.push(obj2[key])
+  return commonKeyValue
 }
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
